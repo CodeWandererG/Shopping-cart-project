@@ -71,7 +71,7 @@ function App() {
         cart={shoppingCart}
         onUpdateCartItemQuantity={handleUpdateCartItemQuantity}
       />
-      <Shop onAddItemToCart={handleAddItemToCart} />
+       <Shop onAddItemToCart={handleAddItemToCart} />
     </>
   );
 }
